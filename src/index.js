@@ -38,7 +38,7 @@ const addTodo = (text) =>{
 }
 
 const createDeleteButton = (target) =>{
-    //ボタンを作成
+    //削除ボタンを作成
     const deleteButtonTag = document.createElement("button")
     deleteButtonTag.textContent = "削除"
     deleteButtonTag.id="delete-button"
