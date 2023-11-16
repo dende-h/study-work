@@ -6,7 +6,7 @@ document.getElementById("add-todo").addEventListener("click", ()=>{
 const clickAddTodoButton = () => {
     //入力されたテキストを取得
     const inputText = document.getElementById("input-todo").value.trim()
-    //console.log(inputText)
+    console.log(inputText)
     
     if(inputText){
     //入力フィールドを空にする
